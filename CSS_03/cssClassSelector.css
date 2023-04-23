@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(212, 254, 212, 0.29);
+}
+
+main {
+    background-color: rgba(98, 96, 89, 0.29);
+    text-align: center;
+}
+
+.titulo_01 {
+    text-transform: uppercase;
+    color: rgb(54, 38, 11);
+}
+
+p {
+    color: aquamarine;
+}
+
+a.link_01 {
+    text-decoration: none;
+}

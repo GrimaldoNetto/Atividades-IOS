@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            font-size: 20px;
+        }
+        p:first-child {
+            color: rgb(31, 255, 1);
+            background-color: rgb(96, 194, 194);
+        }
+        p:last-child {
+            color: rgb(255, 0, 0);
+            background-color: rgb(0, 255, 255);
+        }
+        p:hover {
+            color: rgb(90, 85, 85);
+            background-color: rgb(44, 49, 49);
+        }
+        a:visited {
+            color: green;
+        }
+
+
+
+
+        p::first-line {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+        .ps .p1::first-letter{
+            background-color: rgb(228, 0, 0);
+        }
+        .ps .p2::first-line{
+            background-color: rgb(228, 0, 0);
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+    <section>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="checkbox" id="fname" name="fname">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        <p>Lorem ipsum dolor sit. Lorem ipsum dolor sit.</p>
+    </section>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a target="_blank" href="https://store.steampowered.com/?l=portuguese">Steam</a>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <a href="https://store.steampowered.com/agecheck/app/534380/">Dying Light</a>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt amet alias eius dolor a neque soluta facere ea
+            vel vitae ab ipsum deleniti, delectus enim ipsa consectetur at cumque. Recusandae?
+        </p>
+    </section>
+    <div class="ps">
+        <p class="p1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corrupti eligendi accusamus velit! Est quos non quo minus, omnis at excepturi perferendis, quas qui suscipit, voluptatibus delectus quis possimus?</p>
+        <p class="p2">etur adipisicing elit. Dignissimos harum corrupti eligendi accusamus velit! Est quos non quo minus, omnis at excepturi perferendis, quas qui suscipit, voluptatibus delectus quis </p>
+        <p></p>
+    </div>
+</body>
+
+</html>

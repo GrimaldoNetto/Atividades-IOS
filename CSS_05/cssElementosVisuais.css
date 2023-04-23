@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg?t=st=1681257028~exp=1681257628~hmac=2207cdb188380e22819e737ccae6f02d45a49b23fbe15a60100ff16d41f39eb3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    border: 1px solid blue;
+    padding: 2%;
+}
+
+figure {
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    border: 1px #cccccc solid;
+    padding: 4px;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+.image1 {
+    height: 300px;
+    width: 500px;
+}
+
+p {
+    padding-top: 5%;
+}

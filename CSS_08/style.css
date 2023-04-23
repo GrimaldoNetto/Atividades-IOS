@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.div_pai01 {
+    border: 1px solid #000;
+    height: 400px;
+}
+
+.div_pai02 {
+    border: 1px solid #000;
+    height: 400px;
+}
+
+.div_pai03 {
+    border: 1px solid #000;
+    height: 400px;
+}
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: right;
+}

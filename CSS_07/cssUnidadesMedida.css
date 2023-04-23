@@ -1,0 +1,49 @@
+header {
+    padding: 1cm;
+}
+article{
+    padding: 5pc;
+}
+section {
+    padding: 0.5in;
+}
+.p1 {
+    margin: 1em;
+    border: 1ex solid black;
+    padding: 1ch;
+}
+.p2{
+    margin: 1rem;
+    border: 1vw solid black;
+    padding: 1vh;
+}
+.p3{
+    margin: 1vmin;
+    border: 1vmax solid black;
+    padding: 1%;
+}
+.a1 {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(41, 27, 54);
+    color: rgb(255, 0, 242);
+}
+.a2 {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(71, 55, 65);
+    color: rgb(166, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+margin, border,
+padding

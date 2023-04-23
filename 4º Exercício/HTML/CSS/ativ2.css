@@ -1,0 +1,35 @@
+.imgsix{
+    display: flex;
+    align-items: center;
+    margin: auto;
+} 
+
+.ferrari {
+    padding: 40px 0 30px 0;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 900px;
+}
+
+.texto1 {
+    text-align: center;
+}
+
+.formulario {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.mustang {
+    padding: 40px 0 30px 0;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 500px;
+}
+
+.texto2 {
+    padding-right: 30px;
+    text-align: center;
+}

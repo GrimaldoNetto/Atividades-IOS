@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+section div {
+    border: 1px solid blue;
+}
+
+.div1 {
+    flex: 2;
+    order: 3;
+}
+
+.div2 {
+    flex: 4;
+    order: 1;
+    align-self: flex-end;
+}
+
+.div3 {
+    flex: 3;
+    order: 2;
+}
+
+.div4 {
+    flex: 1;
+    order: 4;
+}
